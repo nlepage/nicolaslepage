@@ -3,19 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <title>Nicolas Lepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
 <link rel="stylesheet" href="css/nicolaslepage.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/nicolaslepage.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body data-spy="scroll" data-target="#menu">
 <span id="top"></span>
 <div id="presentation" class="container-fluid">
     <div class="page-header">
-        <div class="container">
-            <h1>Nicolas Lepage <small>Développeur Java EE Expérimenté</small></h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2 hidden-xs"></div>
+                <div class="col-sm-8 col-xs-12">
+                    <h1>Nicolas Lepage <small>Concepteur / Développeur Java EE Expérimenté</small></h1>
+                </div>
+                <div class="col-sm-2 hidden-xs text-right">
+                    <img width="160" src="img/photo.jpg" style="display: inline" class="img-responsive img-circle">
+                </div>
+            </div>
         </div>
     </div>
     
@@ -29,6 +37,8 @@
                 <li>
                     <a href="#experiences">Expériences</a>
                     <ul class="nav nav-stacked text-right">
+                        <li><a href="#experience-poleemploi"><small>2012 - aujourd'hui : Pôle emploi</small></a></li>
+                        <li><a href="#experience-eurogiciel"><small>2007 - 2011 : Eurogiciel</small></a></li>
                     </ul>
                 </li>
                 <li><a href="#competences">Compétences</a></li>
@@ -53,191 +63,129 @@
             </ul>
         </div>
         
-        <div class="col-sm-10">
-            <div id="resume" class="jumbotron padding-top">
-                 <div class="container-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-sm-10 col-xs-12">
+            <div id="resume" >
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading"><p class="panel-title">Professionnel certifié</p></div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-6"><p class="text-center"><a href="#certification-ocpjp7"><img src="img/logo_ocpjp7.gif" width="140" height="81" alt="Logo OCPJP 7"></a></p></div>
+                                    <div class="col-lg-6"><p class="text-center"><a href="#certification-mongo"><img src="img/logo_mongo.png" width="140" height="38" alt="Logo MongoDB"></a></p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-primary">
+                            <div class="panel-body" style="padding-top: 30px;">
+                                <p class="lead text-center">8 ans d'expérience dans le développement JEE sur des projets d'envergure<p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading"><p class="panel-title">Me contacter</p></div>
+                            <div class="panel-body">
+                                <p class="text-center lead"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:nicolas.lepage@njbl.fr">nicolas.lepage@njbl.fr</a></p>
+                                <p class="text-center lead"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> <a href="tel://+33623941955">06 23 94 19 55</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div id="experiences" class="container-fluid padding-top">
+            <div id="experiences" class="container-fluid">
                 <h2>Expériences</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div id="experience-poleemploi" class="padding-top">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Concepteur / développeur JEE</h3>
+                            <span class="text-right">
+                                Pôle emploi<br>
+                                De 2012 à aujourd'hui
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Actuellement en tant que MOE au sein d'une DSI Pôle emploi en forte évolution, je participe à la réalisation de nombreux projets visant à urbaniser le système d'information, mais aussi à répondre à une demande grandissante d'ouverture des applications sur l'Internet.
+                            </p>
+                            <p>
+                                Sur des domaines fonctionnels variés, et en collaboration avec de nombreuses équipes réparties sur différents sites géographiques, je suis amené à assurer plusieurs tâches :
+                            </p>
+                            <ul>
+                                <li>Conception et développement sur des projets à forte dominante technique</li>
+                                <li>Support technique de premier niveau auprès des équipes de développement</li>
+                                <li>Correspondant privilégié des équipes d'expertise technique</li>
+                                <li>Réalisation de POC afin de valider des solutions techniques</li>
+                                <li>Développement d'applications utilitaires à destination des équipes de développement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="experience-eurogiciel" class="padding-top">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Concepteur / développeur JEE</h3>
+                            <span class="text-right">
+                                <a href="http://www.eurogiciel.fr/">Eurogiciel</a><br>
+                                De 2007 à 2011
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Au sein de l'agence Nantaise d'Eurogiciel, j'ai effectué plusieurs missions d’assistance chez divers grands comptes :
+                            </p>
+                            <ul>
+                                <li>Pôle emploi : Maintenance évolutive de l'application intranet DUNE (gestion de la relation employeur)</li>
+                                <li>La Poste : Refonte du site Internet monbureaudeposte.fr</li>
+                                <li>Direction générale des finances publiques : Refonte du système de paiement des impôts</li>
+                                <li>Air France : Maintenance évolutive de l'application intranet GISPI (gestion de l'instruction des pilotes)</li>
+                            </ul>
+                            <p>
+                                Durant 4 ans et demi, sur des projets de différentes typologies, j'ai pu acquérir peu à peu l'expérience nécessaire afin d'assurer un rôle de conseiller et de référent technique au sein des équipes de développement.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             
             <div id="competences" class="container-fluid padding-top">
                 <h2>Compétences</h2>
                 
-                <div class="panel-group padding-top" id="competences-accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading" role="tab" id="headingCompetencesDeveloppement">
-                            <h3 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#competences-accordion" href="#competences-developpement" aria-expanded="true" aria-controls="competences-developpement">
-                                    <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Développement
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="competences-developpement" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingCompetencesDeveloppement">
-                            <table class="table">
-                                <colgroup>
-                                    <col style="width: 20%;">
-                                    <col style="width: 50%;">
-                                    <col style="width: 30%;">
-                                </colgroup>
-                                <thead>
-                                    <tr>
-                                        <th>Compétence</th>
-                                        <th>Contexte</th>
-                                        <th>Niveau</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="lead">
-                                        <td>Java</td>
-                                        <td>Durant toute ma carrière</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>HTML / CSS</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Javascript</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Script Shell</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">Fondamental</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>PL/SQL</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>PHP</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="panel panel-primary">
-                        <div class="panel-heading" role="tab" id="headingCompetencesFrameworks">
-                            <h3 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#competences-accordion" href="#competences-framework" aria-expanded="false" aria-controls="competences-framework">
-                                    <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Frameworks
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="competences-framework" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingCompetencesFrameworks">
-                            <table class="table">
-                                <colgroup>
-                                    <col style="width: 20%;">
-                                    <col style="width: 50%;">
-                                    <col style="width: 30%;">
-                                </colgroup>
-                                <thead>
-                                    <tr>
-                                        <th>Framework</th>
-                                        <th>Contexte</th>
-                                        <th>Niveau</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="lead">
-                                        <td>JEE 5 / 6 / 7</td>
-                                        <td>Durant toute ma carrière</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="sub-competence">
-                                        <td>JSP / JSF</td>
-                                        <td>Développement d'application intranet pour les conseillers Pôle emploi (RCFaces), développement de l'application GIPSI pour la gestion des planning de formation des pilotes Air France</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="sub-competence">
-                                        <td>EJB</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="sub-competence">
-                                        <td>JPA</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="sub-competence">
-                                        <td>JAX-WS</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="sub-competence">
-                                        <td>JAX-RS</td>
-                                        <td>TODO</td>
-                                        <td>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Type de compétence</th>
+                            <th>Compétences</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Développement</th>
+                            <td>Java, HTML / CSS, Javascript, Script Shell, PL/SQL</td>
+                        </tr>
+                        <tr>
+                            <th>Frameworks de développement</th>
+                            <td>JEE 5/6/7, AngularJS, jQuery, Twitter Bootstrap</td>
+                        </tr>
+                        <tr>
+                            <th>Bases de données</th>
+                            <td>Oracle, Mongo</td>
+                        </tr>
+                        <tr>
+                            <th>Tests</th>
+                            <td>JUnit, TestNG</td>
+                        </tr>
+                        <tr>
+                            <th>Gestion de configuration</th>
+                            <td>ClearCase, RTC, GIT, SVN</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             
             <div id="certifications" class="container-fluid padding-top">
@@ -246,7 +194,7 @@
                 <div id="certification-ocpjp7" class="padding-top">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h4><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Oracle Certified Professional, Java SE 7 Programmer</h4>
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Oracle Certified Professional, Java SE 7 Programmer</h3>
                             <span class="text-right">2015</span>
                         </div>
                         <div class="panel-body">
@@ -268,13 +216,13 @@
                                 <li>Localisation</li>
                             </ul>
                         </div>
-                        <div class="panel-footer hidden-print">
+                        <div class="panel-footer hidden-print hidden-xs">
                             <a href="#certificat-ocpjp7" data-toggle="modal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Visionner le certificat</a>
                             <div id="certificat-ocpjp7" class="modal fade" tabindex="-1" role="dialog">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-body">
-                                            <embed src="file/certificat-ocpjp7.pdf" style="width: 100%; height: 700px;" type="application/pdf">
+                                            <embed src="file/certificat-ocpjp7.pdf" style="width: 100%; height: 720px;" type="application/pdf">
                                         </div>
                                     </div>
                                 </div>
@@ -286,13 +234,13 @@
                 <div id="certification-mongo" class="padding-top">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h4><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> MongoDB Certified Developer, Associate Level</h4>
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> MongoDB Certified Developer, Associate Level</h3>
                             <span class="text-right">2015</span>
                         </div>
                         <div class="panel-body">
                             <p>
-                                <img src="img/logo_mongo.png" width="140" alt="Logo MongoDB" style="margin-right: 1em; margin-bottom: 1em;">
-                                Cette certification reconnaît la capacité d'un développeur à construire et maintenir une application basée sur mongoDB.
+                                <img src="img/logo_mongo.png" width="140" height="38" alt="Logo MongoDB" style="margin-right: 1em; margin-bottom: 1em;">
+                                Cette certification reconnaît la capacité d'un développeur à construire et maintenir une application basée sur MongoDB.
                                 <br>
                                 Elle couvre notamment les sujets suivants :
                             </p>
@@ -304,13 +252,13 @@
                                 <li>Scalabilité (Replica Set et Sharding)</li>
                             </ul>
                         </div>
-                        <div class="panel-footer hidden-print">
+                        <div class="panel-footer hidden-print hidden-xs">
                             <a href="#certificat-mongo" data-toggle="modal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Visionner le certificat</a>
                             <div id="certificat-mongo" class="modal fade" tabindex="-1" role="dialog">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-body">
-                                            <embed src="file/certificat-mongo.pdf" style="width: 100%; height: 700px;" type="application/pdf">
+                                            <embed src="file/certificat-mongo.pdf" style="width: 100%; height: 720px;" type="application/pdf">
                                         </div>
                                     </div>
                                 </div>
@@ -322,7 +270,7 @@
                 <div id="certification-scjp5" class="padding-top">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h4><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Sun Certified Programmer for the Java Platform, SE 5.0</h4>
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Sun Certified Programmer for the Java Platform, SE 5.0</h3>
                             <span class="text-right">2008</span>
                         </div>
                         <div class="panel-body">
@@ -331,13 +279,13 @@
                                 Cette certification atteste d'une connaissance approfondie de l'ensemble des outils fournis par la version standard de Java 5.
                             </p>
                         </div>
-                        <div class="panel-footer hidden-print">
+                        <div class="panel-footer hidden-print hidden-xs">
                             <a href="#certificat-scjp5" data-toggle="modal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Visionner le certificat</a>
                             <div id="certificat-scjp5" class="modal fade" tabindex="-1" role="dialog">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-body">
-                                            <embed src="file/certificat-scjp5.pdf" style="width: 100%; height: 700px;" type="application/pdf">
+                                            <embed src="file/certificat-scjp5.pdf" style="width: 100%; height: 720px;" type="application/pdf">
                                         </div>
                                     </div>
                                 </div>
@@ -381,7 +329,6 @@
                                 <td>2012</td>
                                 <td>ib</td>
                             </tr>
-                            
                         </tbody>
                     </table>
                 </div>
@@ -391,7 +338,7 @@
                     
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Licence Professionnelle d'Informatique (Option : Systèmes d'Information : Intégration et Maintenance)</h4>
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Licence Professionnelle d'Informatique (Option : Systèmes d'Information : Intégration et Maintenance)</h3>
                             <span class="text-right">2007<br>IUT de Vannes</span>
                         </div>
                         <div class="panel-body">
@@ -417,7 +364,7 @@
                     
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Autres formations scolaires</h4>
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Autres formations scolaires</h3>
                         </div>
                         <table class="table">
                             <thead>

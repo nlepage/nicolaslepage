@@ -34,10 +34,6 @@ body {
     justify-content: space-between;
 }
 
-.sub-competence td:first-child {
-    padding-left: 4em;
-}
-
 .progress {
     margin-bottom: 0;
 }
@@ -49,4 +45,17 @@ body {
 .lead .progress-bar {
     font-size: 21px;
     padding: 5px 0;
+}
+
+.panel-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel-title {
+    font-size: 18px;
+}
+
+.panel-heading a {
+    color: white;
 }
