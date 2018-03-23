@@ -2,11 +2,34 @@ body {
     position: relative;
 }
 
-#menu ul {
-    width: 25%;
+#presentation {
+    margin-bottom: 500px;
 }
 
-#menu li.active {
+.padding-top {
+    padding-top: 20px;
+}
+
+#menu > ul {
+    width: 24%;
+}
+
+#menu li.active > a {
     font-weight: bold;
     border-right: #337ab7 solid 2px;
+}
+
+#menu li > ul {
+    margin-top: 2px;
+    display: none;
+}
+
+#menu li.active > ul {
+    display: block;
+}
+
+.panel-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
