@@ -31,13 +31,7 @@
                     <ul class="nav nav-stacked text-right">
                     </ul>
                 </li>
-                <li>
-                    <a href="#competences">Compétences</a>
-                    <ul class="nav nav-stacked text-right">
-                        <li><a href="#competences-developpement"><small>Développement</small></a></li>
-                        <li><a href="#competences-frameworks"><small>Frameworks</small></a></li>
-                    </ul>
-                </li>
+                <li><a href="#competences">Compétences</a></li>
                 <li>
                     <a href="#certifications">Certifications</a>
                     <ul class="nav nav-stacked text-right">
@@ -80,159 +74,168 @@
             <div id="competences" class="container-fluid padding-top">
                 <h2>Compétences</h2>
                 
-                <div id="competences-developpement" class="padding-top">
+                <div class="panel-group padding-top" id="competences-accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h4><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Développement</h4>
+                        <div class="panel-heading" role="tab" id="headingCompetencesDeveloppement">
+                            <h3 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#competences-accordion" href="#competences-developpement" aria-expanded="true" aria-controls="competences-developpement">
+                                    <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Développement
+                                </a>
+                            </h4>
                         </div>
-                        <table class="table">
-                            <colgroup>
-                                <col style="width: 20%;">
-                                <col style="width: 50%;">
-                                <col style="width: 30%;">
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>Compétence</th>
-                                    <th>Contexte</th>
-                                    <th>Niveau</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="lead">
-                                    <td>Java</td>
-                                    <td>Durant toute ma carrière</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>HTML / CSS</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Javascript</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Script Shell</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">Fondamental</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>PL/SQL</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">Fondamental</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>PHP</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div id="competences-developpement" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingCompetencesDeveloppement">
+                            <table class="table">
+                                <colgroup>
+                                    <col style="width: 20%;">
+                                    <col style="width: 50%;">
+                                    <col style="width: 30%;">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>Compétence</th>
+                                        <th>Contexte</th>
+                                        <th>Niveau</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="lead">
+                                        <td>Java</td>
+                                        <td>Durant toute ma carrière</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>HTML / CSS</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Javascript</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Script Shell</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">Fondamental</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>PL/SQL</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>PHP</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                </div>
-                
-                <div id="competences-frameworks" class="padding-top">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h4><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Frameworks</h4>
+                        <div class="panel-heading" role="tab" id="headingCompetencesFrameworks">
+                            <h3 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#competences-accordion" href="#competences-framework" aria-expanded="false" aria-controls="competences-framework">
+                                    <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Frameworks
+                                </a>
+                            </h4>
                         </div>
-                        <table class="table">
-                            <colgroup>
-                                <col style="width: 20%;">
-                                <col style="width: 50%;">
-                                <col style="width: 30%;">
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>Framework</th>
-                                    <th>Contexte</th>
-                                    <th>Niveau</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="lead">
-                                    <td>JEE 5 / 6 / 7</td>
-                                    <td>Durant toute ma carrière</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="sub-competence">
-                                    <td>JSP / JSF</td>
-                                    <td>Développement d'application intranet pour les conseillers Pôle emploi (RCFaces), développement de l'application GIPSI pour la gestion des planning de formation des pilotes Air France</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="sub-competence">
-                                    <td>EJB</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="sub-competence">
-                                    <td>JPA</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="sub-competence">
-                                    <td>JAX-WS</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="sub-competence">
-                                    <td>JAX-RS</td>
-                                    <td>TODO</td>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div id="competences-framework" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingCompetencesFrameworks">
+                            <table class="table">
+                                <colgroup>
+                                    <col style="width: 20%;">
+                                    <col style="width: 50%;">
+                                    <col style="width: 30%;">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>Framework</th>
+                                        <th>Contexte</th>
+                                        <th>Niveau</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="lead">
+                                        <td>JEE 5 / 6 / 7</td>
+                                        <td>Durant toute ma carrière</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="sub-competence">
+                                        <td>JSP / JSF</td>
+                                        <td>Développement d'application intranet pour les conseillers Pôle emploi (RCFaces), développement de l'application GIPSI pour la gestion des planning de formation des pilotes Air France</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="sub-competence">
+                                        <td>EJB</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="sub-competence">
+                                        <td>JPA</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="sub-competence">
+                                        <td>JAX-WS</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Intermédiaire</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="sub-competence">
+                                        <td>JAX-RS</td>
+                                        <td>TODO</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Avancé</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -271,7 +274,7 @@
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-body">
-                                            <embed src="file/certificat-ocpjp7.pdf" style="width: 100%; height: 660px;" type="application/pdf">
+                                            <embed src="file/certificat-ocpjp7.pdf" style="width: 100%; height: 700px;" type="application/pdf">
                                         </div>
                                     </div>
                                 </div>
@@ -307,7 +310,7 @@
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-body">
-                                            <embed src="file/certificat-mongo.pdf" style="width: 100%; height: 660px;" type="application/pdf">
+                                            <embed src="file/certificat-mongo.pdf" style="width: 100%; height: 700px;" type="application/pdf">
                                         </div>
                                     </div>
                                 </div>
@@ -334,7 +337,7 @@
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-body">
-                                            <embed src="file/certificat-scjp5.pdf" style="width: 100%; height: 660px;" type="application/pdf">
+                                            <embed src="file/certificat-scjp5.pdf" style="width: 100%; height: 700px;" type="application/pdf">
                                         </div>
                                     </div>
                                 </div>
