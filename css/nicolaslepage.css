@@ -2,6 +2,11 @@ body {
     position: relative;
 }
 
-.section {
-    padding-top: 70px;
+#menu ul {
+    width: 25%;
+}
+
+#menu li.active {
+    font-weight: bold;
+    border-right: #337ab7 solid 2px;
 }
